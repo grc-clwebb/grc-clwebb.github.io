@@ -67,7 +67,7 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 900px;
 	vertical-align: middle;
     margin: 50px auto;
  	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 60% for the background color*/
