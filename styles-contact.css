@@ -53,14 +53,14 @@ table {
 
 
 
-/* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
+/* ---------- Hello, my name is Cloe Webb and this is the beginning of my CONTACT PAGE CSS for 201 Digital Typography November 2021 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url("images/flower_bg.png")
 		center center fixed no-repeat;
 	background-size: cover
 	
@@ -70,15 +70,15 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(155, 196, 219, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: none;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: none;
 	text-align: center;
 }
 
