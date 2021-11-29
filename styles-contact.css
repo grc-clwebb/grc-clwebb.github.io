@@ -124,11 +124,10 @@ a{
 	color: rgb(108, 95, 126);
 	text-decoration: none;
 	font-weight: normal;
+	margin-bottom: 2%;
+	border-radius: 20px;
 }
 
 a:hover{
-	color: rgb(108, 95, 126);
-	text-decoration: rgb(149, 140, 163);
-	margin-bottom: 2%;
-	border-radius: 20px;
+	color: rgb(149, 143, 167);
 }
