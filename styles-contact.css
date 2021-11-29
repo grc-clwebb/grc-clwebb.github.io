@@ -67,17 +67,19 @@ html, body {
 }
 
 .center {
-    width: 900px;
-	vertical-align: middle;
-    margin: 50px auto;
+    width: 80%; /* adjusts size based on browser size */
+	max-width: 800px;
+	padding: 2%;
+    margin: 100px auto;
  	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 60% for the background color*/
 	text-align: center;
-	border-radius: 30px;
+	border-radius: 50px;
 }
 
    
 #logo {
-    margin-bottom: 16px;
+    margin-top: 50px;
+	margin-bottom: 50px;
 	border: none;
 	text-align: center;
 }
@@ -88,7 +90,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: rgb(108, 95, 126);
+    color: rgb(73, 64, 83);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -97,13 +99,13 @@ p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 1.2em;
     line-height: 1.6;
-    color: rgb(108, 95, 126);
+    color: rgb(73, 64, 83);
 }
     
 nav{
 	font-family: Helvetica, sans-serif;
 	font-size: 1.2em;
-	width: 400px;
+	width: 80%;
 	margin: 0 auto;
 	border: none;
 	border-width: 3px 0;
@@ -120,14 +122,16 @@ nav a{
 	padding: 10px
 }
 
+/* this is the link properties before the user hovers over them */
 a{
-	color: rgb(108, 95, 126);
+	color: rgb(73, 64, 83);
 	text-decoration: none;
 	font-weight: normal;
 	margin-bottom: 2%;
 	border-radius: 20px;
 }
 
+/* this is for when the user hovers over the links */
 a:hover{
-	color: rgb(149, 143, 167);
+	color: rgb(121, 113, 146);
 }
