@@ -71,7 +71,6 @@ html, body {
 
 .center {
     width: 80%; /* adjusts size based on browser size */
-	height: 800px;
 	max-width: 500px; /* adjusts width at biggest browser size */
 	padding: 2%;
     margin: 100px auto;
@@ -79,7 +78,6 @@ html, body {
 	text-align: center;
 	border-radius: 50px;
 	vertical-align: middle;
-	overflow: auto;
 }
    
 #logo {
