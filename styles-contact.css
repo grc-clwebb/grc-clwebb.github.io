@@ -107,6 +107,7 @@ h2 {
     line-height: 2;
     color: rgb(87, 73, 105);
     padding: 0px 0px;
+	border-width: thick;
 }
 
 p {
