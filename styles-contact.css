@@ -55,6 +55,10 @@ table {
 
 /* ------ Hello, my name is Cloe Webb and this is the beginning of my CONTACT PAGE CSS for 201 Digital Typography November 2021 ------ */
 
+* {
+	overflow: auto;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -63,10 +67,6 @@ html, body {
   background: url("images/sky_bg.png")
 		center center fixed no-repeat;
 	background-size: cover;
-}
-
-* {
-	overflow: auto;
 }
 
 .center {
@@ -86,17 +86,6 @@ html, body {
 	border: none;
 	text-align: center;
 	size: 80%;
-}
-
-h1 {
-	font-family: como, sans-serif;
-	font-weight: 500;
-	font-style: italic;
-	font-size: 1em;
-	line-height: 2;
-	color: rgb(41, 34, 51);
-	padding: 0px;
-	margin: auto;
 }
 
 h2 {
@@ -120,7 +109,11 @@ p {
     color: rgb(41, 34, 51);
 	border-width: thick;
 }
-    
+
+div {
+	overflow: hidden;
+}
+
 nav{
 	font-family: como, sans-serif;
 	font-size: 1.2em;
