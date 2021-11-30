@@ -72,8 +72,7 @@ html, body {
     width: 80%; /* adjusts size based on browser size */
 	max-width: 500px; /* adjusts width at biggest browser size */
 	padding: 2%;
-    margin: 50px auto;
-	margin-bottom: 50px auto;
+    margin: 100px auto;
  	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 60% for the background color*/
 	text-align: center;
 	border-radius: 50px;
@@ -106,7 +105,7 @@ h2 {
     line-height: 2;
     color: rgb(87, 73, 105);
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 25px auto;
 }
 
 p {
@@ -150,5 +149,5 @@ a{
 
 /* this is for when the user hovers over the links */
 a:hover{
-	color: rgb(121, 113, 146);
+	color: rgb(148, 140, 172);
 }
