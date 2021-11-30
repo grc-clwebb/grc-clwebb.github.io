@@ -65,6 +65,10 @@ html, body {
 	background-size: cover;
 }
 
+* {
+	overflow: hidden;
+}
+
 .center {
     width: 80%; /* adjusts size based on browser size */
 	max-width: 500px; /* adjusts width at biggest browser size */
@@ -74,7 +78,6 @@ html, body {
 	text-align: center;
 	border-radius: 50px;
 	vertical-align: middle;
-	overflow: hidden;
 }
    
 #logo {
