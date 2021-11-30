@@ -71,7 +71,7 @@ html, body {
 
 .center {
     width: 80%; /* adjusts size based on browser size */
-	height: 50%;
+	height: 70%;
 	max-width: 500px; /* adjusts width at biggest browser size */
 	padding: 2%;
     margin: 100px auto;
