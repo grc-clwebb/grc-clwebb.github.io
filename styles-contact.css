@@ -54,10 +54,11 @@ table {
 
 
 /* ------ Hello, my name is Cloe Webb and this is the beginning of my CONTACT PAGE CSS for 201 Digital Typography November 2021 ------ */
-
+/*
 * {
 	overflow: auto;
 }
+*/
 
 html, body {
   height: 100%;
@@ -72,13 +73,14 @@ html, body {
 .center {
     width: 80%; /* adjusts size based on browser size */
 	max-width: 500px; /* width at biggest browser size */
-	padding: 2%;
+	padding: 3%;
     margin: 100px auto;
  	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the background color*/
 	text-align: center;
 	border-radius: 50px;
 	vertical-align: middle;
-	overflow: hidden;
+	overflow: auto;
+	margin-bottom: auto
 }
    
 #logo {
@@ -113,15 +115,14 @@ p {
 
 nav{
 	font-family: como, sans-serif;
-	font-size: 1.2em;
+	font-size: 1em; /* previously was 1.2em */
 	width: 80%;
-	margin: 0 auto;
-	border: none;
+	margin: 5px auto;
+	border: 0;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
 	overflow: hidden;
-	padding: 0%;
 }
 
 nav li{
@@ -130,7 +131,9 @@ nav li{
 
 nav a{
 	display:inline-block;
-	padding: 10px
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
 }
 
 /* this is the link properties before the user hovers over them */
@@ -141,7 +144,6 @@ a{
 	font-weight: normal;
 	margin-bottom: 2%;
 	border-radius: 20px;
-	overflow: hidden;
 }
 
 /* this is for when the user hovers over the links */
