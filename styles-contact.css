@@ -71,13 +71,14 @@ html, body {
 
 .center {
     width: 80%; /* adjusts size based on browser size */
-	max-width: 500px; /* adjusts width at biggest browser size */
+	max-width: 500px; /* width at biggest browser size */
 	padding: 2%;
     margin: 100px auto;
  	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the background color*/
 	text-align: center;
 	border-radius: 50px;
 	vertical-align: middle;
+	overflow: hidden;
 }
    
 #logo {
@@ -108,10 +109,6 @@ p {
     line-height: 1.6;
     color: rgb(41, 34, 51);
 	border-width: thick;
-}
-
-div {
-	overflow: hidden;
 }
 
 nav{
