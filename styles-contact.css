@@ -149,6 +149,7 @@ a{
 	font-weight: normal;
 	margin-bottom: 2%;
 	border-radius: 20px;
+	overflow: hidden;
 }
 
 /* this is for when the user hovers over the links */
