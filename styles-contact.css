@@ -122,7 +122,7 @@ p {
 }
     
 nav{
-	font-family: Helvetica, sans-serif;
+	font-family: como, sans-serif;
 	font-size: 1.2em;
 	width: 80%;
 	margin: 0 auto;
@@ -143,6 +143,7 @@ nav a{
 
 /* this is the link properties before the user hovers over them */
 a{
+	font-family: como, sans-serif;
 	color: rgb(41, 34, 51);
 	text-decoration: none;
 	font-weight: normal;
