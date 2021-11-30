@@ -66,7 +66,7 @@ html, body {
 }
 
 * {
-	overflow: hidden;
+	overflow: auto;
 }
 
 .center {
@@ -118,6 +118,7 @@ p {
 	font-size: 1.2em;
     line-height: 1.6;
     color: rgb(41, 34, 51);
+	border-width: thick;
 }
     
 nav{
