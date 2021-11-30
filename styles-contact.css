@@ -73,6 +73,7 @@ html, body {
 	max-width: 500px; /* adjusts width at biggest browser size */
 	padding: 2%;
     margin: 50px auto;
+	margin-bottom: 50px auto;
  	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 60% for the background color*/
 	text-align: center;
 	border-radius: 50px;
