@@ -56,7 +56,7 @@ table {
 /* ------ Hello, my name is Cloe Webb and this is the beginning of my CONTACT PAGE CSS for 201 Digital Typography November 2021 ------ */
 
 html, body {
-  height: 95%;
+  height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -71,10 +71,11 @@ html, body {
 
 .center {
     width: 80%; /* adjusts size based on browser size */
+	height: 80%;
 	max-width: 500px; /* adjusts width at biggest browser size */
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 60% for the background color*/
+ 	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the background color*/
 	text-align: center;
 	border-radius: 50px;
 	vertical-align: middle;
@@ -150,5 +151,5 @@ a{
 
 /* this is for when the user hovers over the links */
 a:hover{
-	color: rgb(148, 140, 172);
+	color: rgb(136, 131, 151);
 }
