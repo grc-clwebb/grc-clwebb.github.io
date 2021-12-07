@@ -75,21 +75,33 @@ html, body {
     width: 80%; /* adjusts size based on browser size */
 	max-width: 500px; /* width at biggest browser size */
 	padding: 3%;
-    margin: 100px auto;
- 	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the background color*/
+    margin: 50px auto;
+ 	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the color*/
 	text-align: center;
 	border-radius: 50px;
 	vertical-align: middle;
 	overflow: auto;
-	margin-bottom: auto
+	margin-bottom: 50px
 }
    
 #logo {
-    margin-top: 50px;
-	margin-bottom: 50px;
+    margin-top: 30px;
+	margin-bottom: 20px;
 	border: none;
 	text-align: center;
 	size: 80%;
+}
+
+h1 {
+	font-family: como, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.5em;
+    line-height: 3.5;
+    color: rgb(41, 34, 51);
+    padding: 0px 0px;
+	border-width: thick;
+	letter-spacing: 5px;
 }
 
 h2 {
