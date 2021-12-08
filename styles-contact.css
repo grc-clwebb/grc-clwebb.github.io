@@ -136,6 +136,7 @@ nav{
 	text-align: center;
 	margin-top: 1.5em; /* previously was 2em */
 	margin-bottom: 0;
+	padding-bottom: 0px;
 	overflow: hidden;
 }
 
