@@ -75,6 +75,7 @@ html, body {
     width: 80%; /* adjusts size based on browser size */
 	max-width: 500px; /* width at biggest browser size */
 	padding: 3%;
+	padding-bottom: 2.5%;
     margin: 50px auto;
  	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the color*/
 	text-align: center;
@@ -135,8 +136,6 @@ nav{
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 1.5em; /* previously was 2em */
-	margin-bottom: 0;
-	padding-bottom: 0px;
 	overflow: hidden;
 }
 
