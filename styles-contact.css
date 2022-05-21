@@ -75,18 +75,17 @@ html, body {
     width: 80%; /* adjusts size based on browser size */
 	max-width: 500px; /* width at biggest browser size */
 	padding: 3%;
-	padding-bottom: 2.5%;
-    margin: 60px auto;
- 	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the color*/
+    margin: 100px auto;
+ 	background: rgba(219, 213, 240, 0.7); /*this uses opacity of 60% for the background color*/
 	text-align: center;
 	border-radius: 50px;
 	vertical-align: middle;
 	overflow: auto;
-	margin-bottom: 40px
+	margin-bottom: auto
 }
    
 #logo {
-    margin-top: 30px;
+    margin-top: 40px;
 	margin-bottom: 20px;
 	border: none;
 	text-align: center;
@@ -104,6 +103,7 @@ h1 {
 	border-width: thick;
 	letter-spacing: 5px;
 }
+
 
 h2 {
 	font-family: como, sans-serif;
@@ -129,14 +129,15 @@ p {
 
 nav{
 	font-family: como, sans-serif;
-	font-size: 1.1em; /* previously was 1.2em */
+	font-size: 1em; /* previously was 1.2em */
 	width: 80%;
 	margin: 5px auto;
 	border: 0;
 	border-width: 3px 0;
 	text-align: center;
-	margin-top: 1.5em; /* previously was 2em */
+	margin-top: 1.5em;
 	overflow: hidden;
+	line-height: 150%;
 }
 
 nav li{
