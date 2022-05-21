@@ -124,6 +124,7 @@ nav{
 	text-align: center;
 	margin-top: 2em;
 	overflow: hidden;
+	line-height: 200%;
 }
 
 nav li{
