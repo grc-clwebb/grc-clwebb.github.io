@@ -1,0 +1,153 @@
+/*This is my 201 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ------ Hello, my name is Cloe Webb and this is the beginning of my CONTACT PAGE CSS for 201 Digital Typography November 2021 ------ */
+/*
+* {
+	overflow: auto;
+}
+*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url("images/sky_bg.png")
+		center center fixed no-repeat;
+	background-size: cover;
+  overflow: auto;
+}
+
+.center {
+    width: 80%; /* adjusts size based on browser size */
+	max-width: 500px; /* width at biggest browser size */
+	padding: 3%;
+    margin: 100px auto;
+ 	background: rgba(219, 213, 240, 0.6); /*this uses opacity of 60% for the background color*/
+	text-align: center;
+	border-radius: 50px;
+	vertical-align: middle;
+	overflow: auto;
+	margin-bottom: auto
+}
+   
+#logo {
+    margin-top: 50px;
+	margin-bottom: 50px;
+	border: none;
+	text-align: center;
+	size: 80%;
+}
+
+h2 {
+	font-family: como, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+    line-height: 2;
+    color: rgb(87, 73, 105);
+    padding: 0px 0px;
+	border-width: thick;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: como, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(41, 34, 51);
+	border-width: thick;
+}
+
+nav{
+	font-family: como, sans-serif;
+	font-size: 1em; /* previously was 1.2em */
+	width: 80%;
+	margin: 5px auto;
+	border: 0;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+	overflow: hidden;
+}
+
+nav li{
+	display:inline
+}
+
+nav a{
+	display:inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+
+/* this is the link properties before the user hovers over them */
+a{
+	font-family: como, sans-serif;
+	color: rgb(41, 34, 51);
+	text-decoration: none;
+	font-weight: normal;
+	margin-bottom: 2%;
+	border-radius: 20px;
+}
+
+/* this is for when the user hovers over the links */
+a:hover{
+	color: rgb(87, 73, 105);
+}
