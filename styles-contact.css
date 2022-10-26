@@ -172,19 +172,20 @@ a:hover{
 a {
   display: block;
   position: relative;
-  padding: 0.1em 0;
+  padding: 0.2em 0;
+  
 }
 
 a::after {
   content: '';
-  position: relative;
+  position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100px;
+  left: 0.5em;
+  width: 82%;
   height: 0.1em;
   background-color: rgb(85, 65, 122);
   opacity: 0;
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 200ms, transform 200ms;
 }
 
 a:hover::after,
