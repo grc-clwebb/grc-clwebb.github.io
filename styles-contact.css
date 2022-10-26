@@ -169,6 +169,12 @@ a:hover{
 	color: rgb(85, 65, 122);
 }
 
+a {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+
 a::after {
   content: '';
   position: absolute;
