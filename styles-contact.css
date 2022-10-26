@@ -172,15 +172,15 @@ a:hover{
 a {
   display: block;
   position: relative;
-  padding: 0.2em 0;
+  padding: 0.1em 0;
 }
 
 a::after {
   content: '';
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
-  width: 50px;
+  width: 100px;
   height: 0.1em;
   background-color: rgb(85, 65, 122);
   opacity: 0;
