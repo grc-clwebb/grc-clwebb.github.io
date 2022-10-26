@@ -82,6 +82,8 @@ html, body {
 	border-radius: 50px;
 	vertical-align: middle;
 	overflow: auto;
+	margin-top: 50px;
+	margin-bottom: auto;
 }
    
 #logo {
@@ -136,6 +138,7 @@ nav{
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 1.5em;
+	margin-bottom: 1em;
 	overflow: hidden;
 	line-height: 150%;
 }
