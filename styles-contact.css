@@ -182,7 +182,7 @@ a::after {
   bottom: 0;
   left: 0.5em;
   width: 82%;
-  height: 0.1em;
+  height: 0.08em;
   background-color: rgb(85, 65, 122);
   opacity: 0;
   transition: opacity 200ms, transform 200ms;
